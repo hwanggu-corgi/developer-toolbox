@@ -3,5 +3,6 @@ Software Requirements
 - Select list of tools from docker
 - Start, stop, delete tools from one screen
 - See status of multiple tools in one screen
-- See details of each tool in detail
+- See details (or inside) of each tool
 - Be able to run multiple tasks at once
+- Be able to go back and select more tasks once it's running
