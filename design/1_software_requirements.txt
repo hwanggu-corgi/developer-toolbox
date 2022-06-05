@@ -1,0 +1,7 @@
+Software Requirements
+- Login to docker
+- Select list of tools from docker
+- Start, stop, delete tools from one screen
+- See status of multiple tools in one screen
+- See details of each tool in detail
+- Be able to run multiple tasks at once
