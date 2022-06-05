@@ -15,16 +15,24 @@ User stories
     - Start time & duration
     - Status
     - More "..." button
+  - User can select following options after clicking '...' button on each item
+    - Restart tool
+    - Stop tool
+    - Remove tool
+    - See detail
   - Users can stop existing tool by selecting "..." button on individual item, or selecting "Stop all tools" button on this page
-
-- Epic 3 - Start new tool popup
   - Users are given a popup with a list of new tools to run after clicking "Start new tool"
   - Users can select multiple Tools
   - Users can start tools by selecting "start "
   - Users can cancel select by pressing "cancel button"
 
-- Epic 4 - Running tool
-  - Users can access graphical user interface under detail page, or selecting "View Screen" under "..." (more button) on corresponding item on main page
+- Epic 3 - Detail Page
+  - Users can access graphical user interface under detail page, or selecting "View Screen" button on detail page
+  - User can select following options after clicking '...' button on each item
+    - Restart tool
+    - Stop tool
+    - Remove tool
+    - See detail
   - Users can see the following properties on detail page
     - Tool name
     - Start time & duration
@@ -33,12 +41,13 @@ User stories
 - Epic 4 - Status
   - Users can see running tool's status on on main page, and tool's detail page
   - Users can see the following statuses:
-    - Running (Red)
+    - Running (Blue)
     - Idle (yellow)
     - Ready (Green)
     - Shutting down (Grey)
+    - Stopped (Red)
 
-- Epic 6 - Logout
+- Epic 5 - Logout
   - User can log out by either pressing 'x' button or pressing "log out" from user menu
   - Users are shown green alert bar saying "logout is successful" is logout is successful before leading to login page
   - Users are shown red alert bar saying "logout failed: <detail>" if logout is unsuccessful
