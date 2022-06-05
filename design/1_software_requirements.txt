@@ -8,8 +8,9 @@ Software Requirements
 - Be able to go back and select more tasks once it's running
 
 Functional Requirements
-  - We want to select
-  - We want to be able to fetch install tools and run it using docker and minikube
+  - We want to be able to login to docker
+  - We want to be able to fetch tools and using docker
+  - We want to be able to manage it using kubernetes
   - We want to be able to see status of running tools (Running, idle, ready)
   - We want to be able to see details of running task as well as inside (like graphical user interface)
   - We want to be able to run multiple tasks at once
