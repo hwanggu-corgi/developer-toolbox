@@ -5,6 +5,8 @@ User stories
   - Users are logged in to main via docker's oauth only
   - Users are logged in as long as window stays open
   - Users are shown green alert saying "Login is successful" before going into main page
+  - Users are shown red alert saying "Login failed: <detail>" if login is unsuccessful
+  - Users are lead to main page upon successful login
 
 - Epic 2 - Main Screen
   - Users can run new tool from "Start new tool" button on this page
@@ -21,13 +23,23 @@ User stories
   - Users can start tools by selecting "start "
   - Users can cancel select by pressing "cancel button"
 
+- Epic 4 - Running tool
+  - Users can access graphical user interface under detail page, or selecting "View Screen" under "..." (more button) on corresponding item on main page
+  - Users can see the following properties on detail page
+    - Tool name
+    - Start time & duration
+    - Status
+
 - Epic 4 - Status
   - Users can see running tool's status on on main page, and tool's detail page
   - Users can see the following statuses:
-    - Running
-    - Idle
-    - Ready
-
-- Epic 5 - Loading / Starting / Stopping  Tool
+    - Running (Red)
+    - Idle (yellow)
+    - Ready (Green)
+    - Shutting down (Grey)
 
 - Epic 6 - Logout
+  - User can log out by either pressing 'x' button or pressing "log out" from user menu
+  - Users are shown green alert bar saying "logout is successful" is logout is successful before leading to login page
+  - Users are shown red alert bar saying "logout failed: <detail>" if logout is unsuccessful
+  - Users are lead to login page on logging out
