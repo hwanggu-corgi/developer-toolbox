@@ -1,12 +1,18 @@
 User stories
 
+- Epic 1 - Managubg Tools
 
-Epic 1 - Login
+- Epic 2 - Login
+  - Users are logged in to main via docker's oauth only
+  - Users are logged in as long as window stays open
+  - Users are shown green alert saying "Login is successful" before going into main page
 
+- Epic 3 - Main Screen
+  - Users can run new tool from "Start new tool" button on this page
+  - Users can stop existing tool by selecting more on individual item, or selecting "Stop all tools" button on this page
 
-Epic 2 - Main Screen
+- Epic 4 -
 
+- Epic 5 - Loading / Starting / Stopping  Tool
 
-Epic 2 - Loading / Starting / Stopping  Tool
-
-Epic 4 - Logout
+- Epic 6 - Logout
