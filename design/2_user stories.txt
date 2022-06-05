@@ -1,3 +1,12 @@
 User stories
 
 
+Epic 1 - Login
+
+
+Epic 2 - Main Screen
+
+
+Epic 2 - Loading / Starting / Stopping  Tool
+
+Epic 4 - Logout
