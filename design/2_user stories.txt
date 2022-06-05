@@ -1,17 +1,32 @@
 User stories
 
-- Epic 1 - Managubg Tools
-
-- Epic 2 - Login
+- Epic 1 - Login
+  - Users are logged out, and all cache are cleared as soon as the "software developer" tool window is opened
   - Users are logged in to main via docker's oauth only
   - Users are logged in as long as window stays open
   - Users are shown green alert saying "Login is successful" before going into main page
 
-- Epic 3 - Main Screen
+- Epic 2 - Main Screen
   - Users can run new tool from "Start new tool" button on this page
-  - Users can stop existing tool by selecting more on individual item, or selecting "Stop all tools" button on this page
+  - Users are shown all running processes with each showing
+    - Tool name
+    - Start time & duration
+    - Status
+    - More "..." button
+  - Users can stop existing tool by selecting "..." button on individual item, or selecting "Stop all tools" button on this page
 
-- Epic 4 -
+- Epic 3 - Start new tool popup
+  - Users are given a popup with a list of new tools to run after clicking "Start new tool"
+  - Users can select multiple Tools
+  - Users can start tools by selecting "start "
+  - Users can cancel select by pressing "cancel button"
+
+- Epic 4 - Status
+  - Users can see running tool's status on on main page, and tool's detail page
+  - Users can see the following statuses:
+    - Running
+    - Idle
+    - Ready
 
 - Epic 5 - Loading / Starting / Stopping  Tool
 
