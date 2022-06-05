@@ -11,8 +11,11 @@ Functional Requirements
   - We want to select
   - We want to be able to fetch install tools and run it using docker and minikube
   - We want to be able to see status of running tools (Running, idle, ready)
+  - We want to be able to see details of running task as well as inside (like graphical user interface)
+  - We want to be able to run multiple tasks at once
+  - We want to be able go back and select more tasks after a task is running
   - We want to stay in sync to docker server's repo list
 
 Non-Functional Requirements
-  -
+  - We will use flutter to hasten rapid release of app
 
