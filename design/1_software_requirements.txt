@@ -6,3 +6,13 @@ Software Requirements
 - See details (or inside) of each tool
 - Be able to run multiple tasks at once
 - Be able to go back and select more tasks once it's running
+
+Functional Requirements
+  - We want to select
+  - We want to be able to fetch install tools and run it using docker and minikube
+  - We want to be able to see status of running tools (Running, idle, ready)
+  - We want to stay in sync to docker server's repo list
+
+Non-Functional Requirements
+  -
+
