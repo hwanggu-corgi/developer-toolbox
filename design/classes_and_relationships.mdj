@@ -4089,7 +4089,8 @@
 							"_parent": {
 								"$ref": "AAAAAAGBNq+ewS3we3Y="
 							},
-							"name": "duration"
+							"name": "duration",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -4325,7 +4326,8 @@
 							"_parent": {
 								"$ref": "AAAAAAGBNrPLEy5y/1M="
 							},
-							"name": "tasksList"
+							"name": "tasksList",
+							"type": ""
 						}
 					],
 					"operations": [
