@@ -44,7 +44,7 @@
 							"_parent": {
 								"$ref": "AAAAAAGBUDZ4aZf85uw="
 							},
-							"name": "Start",
+							"name": "Login",
 							"ownedViews": [
 								{
 									"_type": "UMLFrameView",
@@ -65,9 +65,9 @@
 											"font": "Arial;13;0",
 											"left": 24.72998046875,
 											"top": 21,
-											"width": 28.45361328125,
+											"width": 32.80810546875,
 											"height": 13,
-											"text": "Start"
+											"text": "Login"
 										},
 										{
 											"_type": "LabelView",
@@ -1964,6 +1964,119 @@
 								},
 								{
 									"_type": "UMLSeqMessageView",
+									"_id": "AAAAAAGBUJd525x3YA4=",
+									"_parent": {
+										"$ref": "AAAAAAGBUDZ4aZf92Ck="
+									},
+									"model": {
+										"$ref": "AAAAAAGBUJd525x2iLM="
+									},
+									"subViews": [
+										{
+											"_type": "EdgeLabelView",
+											"_id": "AAAAAAGBUJd525x4pK0=",
+											"_parent": {
+												"$ref": "AAAAAAGBUJd525x3YA4="
+											},
+											"model": {
+												"$ref": "AAAAAAGBUJd525x2iLM="
+											},
+											"font": "Arial;13;0",
+											"left": 475,
+											"top": 584,
+											"width": 106.2216796875,
+											"height": 13,
+											"alpha": 1.5707963267948966,
+											"distance": 10,
+											"hostEdge": {
+												"$ref": "AAAAAAGBUJd525x3YA4="
+											},
+											"edgePosition": 1,
+											"text": "10 : clearMessage"
+										},
+										{
+											"_type": "EdgeLabelView",
+											"_id": "AAAAAAGBUJd53Jx5/Dw=",
+											"_parent": {
+												"$ref": "AAAAAAGBUJd525x3YA4="
+											},
+											"model": {
+												"$ref": "AAAAAAGBUJd525x2iLM="
+											},
+											"font": "Arial;13;0",
+											"left": 504,
+											"top": 569,
+											"width": 48.419921875,
+											"height": 13,
+											"alpha": 1.5707963267948966,
+											"distance": 25,
+											"hostEdge": {
+												"$ref": "AAAAAAGBUJd525x3YA4="
+											},
+											"edgePosition": 1,
+											"text": "«async»"
+										},
+										{
+											"_type": "EdgeLabelView",
+											"_id": "AAAAAAGBUJd53Jx6xlE=",
+											"_parent": {
+												"$ref": "AAAAAAGBUJd525x3YA4="
+											},
+											"model": {
+												"$ref": "AAAAAAGBUJd525x2iLM="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"left": 528,
+											"top": 604,
+											"height": 13,
+											"alpha": -1.5707963267948966,
+											"distance": 10,
+											"hostEdge": {
+												"$ref": "AAAAAAGBUJd525x3YA4="
+											},
+											"edgePosition": 1
+										},
+										{
+											"_type": "UMLActivationView",
+											"_id": "AAAAAAGBUJd53Jx7PvA=",
+											"_parent": {
+												"$ref": "AAAAAAGBUJd525x3YA4="
+											},
+											"model": {
+												"$ref": "AAAAAAGBUJd525x2iLM="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"left": 767,
+											"top": 600,
+											"width": 14,
+											"height": 25
+										}
+									],
+									"font": "Arial;13;0",
+									"head": {
+										"$ref": "AAAAAAGBUGH2Y5q8lSs="
+									},
+									"tail": {
+										"$ref": "AAAAAAGBUELVmZj3e4Q="
+									},
+									"points": "290:600;767:600",
+									"nameLabel": {
+										"$ref": "AAAAAAGBUJd525x4pK0="
+									},
+									"stereotypeLabel": {
+										"$ref": "AAAAAAGBUJd53Jx5/Dw="
+									},
+									"propertyLabel": {
+										"$ref": "AAAAAAGBUJd53Jx6xlE="
+									},
+									"activation": {
+										"$ref": "AAAAAAGBUJd53Jx7PvA="
+									}
+								},
+								{
+									"_type": "UMLSeqMessageView",
 									"_id": "AAAAAAGBUGz/pZuEolU=",
 									"_parent": {
 										"$ref": "AAAAAAGBUDZ4aZf92Ck="
@@ -1992,7 +2105,7 @@
 												"$ref": "AAAAAAGBUGz/pZuEolU="
 											},
 											"edgePosition": 1,
-											"text": "10 : redirect"
+											"text": "11 : redirect"
 										},
 										{
 											"_type": "EdgeLabelView",
@@ -2103,7 +2216,7 @@
 												"$ref": "AAAAAAGBUFytk5qT/2Y="
 											},
 											"edgePosition": 1,
-											"text": "11 : delete loginManager"
+											"text": "12 : delete loginManager"
 										},
 										{
 											"_type": "EdgeLabelView",
@@ -2324,6 +2437,22 @@
 							"target": {
 								"$ref": "AAAAAAGBUEM+eplGbEs="
 							}
+						},
+						{
+							"_type": "UMLMessage",
+							"_id": "AAAAAAGBUJd525x2iLM=",
+							"_parent": {
+								"$ref": "AAAAAAGBUDZ4aZf85uw="
+							},
+							"name": "clearMessage",
+							"source": {
+								"$ref": "AAAAAAGBUELVmJjwGaE="
+							},
+							"target": {
+								"$ref": "AAAAAAGBUGH2Y5q1gag="
+							},
+							"stereotype": "async",
+							"messageSort": "asynchSignal"
 						},
 						{
 							"_type": "UMLMessage",
