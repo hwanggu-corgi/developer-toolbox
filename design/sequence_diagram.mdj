@@ -2670,6 +2670,164 @@
 					"type": "Main Page"
 				}
 			]
+		},
+		{
+			"_type": "UMLCollaboration",
+			"_id": "AAAAAAGBUL3a+5yYXiA=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "Collaboration2",
+			"ownedElements": [
+				{
+					"_type": "UMLInteraction",
+					"_id": "AAAAAAGBUL3a/JyZ/Tk=",
+					"_parent": {
+						"$ref": "AAAAAAGBUL3a+5yYXiA="
+					},
+					"name": "Interaction1",
+					"ownedElements": [
+						{
+							"_type": "UMLSequenceDiagram",
+							"_id": "AAAAAAGBUL3a/ZyaGYM=",
+							"_parent": {
+								"$ref": "AAAAAAGBUL3a/JyZ/Tk="
+							},
+							"name": "Add Task",
+							"ownedViews": [
+								{
+									"_type": "UMLFrameView",
+									"_id": "AAAAAAGBUL3a/ZybACA=",
+									"_parent": {
+										"$ref": "AAAAAAGBUL3a/ZyaGYM="
+									},
+									"model": {
+										"$ref": "AAAAAAGBUL3a/ZyaGYM="
+									},
+									"subViews": [
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGBUL3bDJycUuw=",
+											"_parent": {
+												"$ref": "AAAAAAGBUL3a/ZybACA="
+											},
+											"font": "Arial;13;0",
+											"left": 32.72998046875,
+											"top": 13,
+											"width": 54.47265625,
+											"height": 13,
+											"text": "Add Task"
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGBUL3bDJydw2o=",
+											"_parent": {
+												"$ref": "AAAAAAGBUL3a/ZybACA="
+											},
+											"font": "Arial;13;1",
+											"left": 13,
+											"top": 13,
+											"width": 14.72998046875,
+											"height": 13,
+											"text": "sd"
+										}
+									],
+									"font": "Arial;13;0",
+									"left": 8,
+									"top": 8,
+									"width": 692,
+									"height": 592,
+									"nameLabel": {
+										"$ref": "AAAAAAGBUL3bDJycUuw="
+									},
+									"frameTypeLabel": {
+										"$ref": "AAAAAAGBUL3bDJydw2o="
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"_type": "UMLCollaboration",
+			"_id": "AAAAAAGBUL8Kxpy7T+o=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "Collaboration3",
+			"ownedElements": [
+				{
+					"_type": "UMLInteraction",
+					"_id": "AAAAAAGBUL8Kxpy89+k=",
+					"_parent": {
+						"$ref": "AAAAAAGBUL8Kxpy7T+o="
+					},
+					"name": "Interaction1",
+					"ownedElements": [
+						{
+							"_type": "UMLSequenceDiagram",
+							"_id": "AAAAAAGBUL8Kxpy9/44=",
+							"_parent": {
+								"$ref": "AAAAAAGBUL8Kxpy89+k="
+							},
+							"name": "Delete Task",
+							"ownedViews": [
+								{
+									"_type": "UMLFrameView",
+									"_id": "AAAAAAGBUL8Kxpy+q3g=",
+									"_parent": {
+										"$ref": "AAAAAAGBUL8Kxpy9/44="
+									},
+									"model": {
+										"$ref": "AAAAAAGBUL8Kxpy9/44="
+									},
+									"subViews": [
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGBUL8Kxpy/PzU=",
+											"_parent": {
+												"$ref": "AAAAAAGBUL8Kxpy+q3g="
+											},
+											"font": "Arial;13;0",
+											"left": 32.72998046875,
+											"top": 13,
+											"width": 68.919921875,
+											"height": 13,
+											"text": "Delete Task"
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGBUL8KxpzAx+4=",
+											"_parent": {
+												"$ref": "AAAAAAGBUL8Kxpy+q3g="
+											},
+											"font": "Arial;13;1",
+											"left": 13,
+											"top": 13,
+											"width": 14.72998046875,
+											"height": 13,
+											"text": "sd"
+										}
+									],
+									"font": "Arial;13;0",
+									"left": 8,
+									"top": 8,
+									"width": 692,
+									"height": 592,
+									"nameLabel": {
+										"$ref": "AAAAAAGBUL8Kxpy/PzU="
+									},
+									"frameTypeLabel": {
+										"$ref": "AAAAAAGBUL8KxpzAx+4="
+									}
+								}
+							]
+						}
+					]
+				}
+			]
 		}
 	]
 }
